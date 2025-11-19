@@ -5,72 +5,74 @@ We use the SMS Spam Collection Dataset which contains 5,572 labeled messages.
 
 This project includes:
 
-Data loading
+* Data loading
 
-Preprocessing
+* Preprocessing
 
-Exploratory Data Analysis (EDA)
+* Exploratory Data Analysis (EDA)
 
-Text vectorization
+* Text vectorization
 
-Model training
+* Model training
 
-Performance comparison
+* Performance comparison
 
-Predictions on custom messages
+* Predictions on custom messages
 
 Dataset:
 
-Name: SMS Spam Collection Dataset
+* Name: SMS Spam Collection Dataset
 
-Classes:
+* Classes:
 
-ham → not spam
+a) ham → not spam
 
-spam → spam message
+b) spam → spam message
 
 Technologies & Libraries Used
 
-Python
+* Python
 
-pandas
+* pandas
 
-numpy
+* numpy
 
-matplotlib
+* matplotlib
 
-seaborn
+* seaborn
 
-sklearn
+* sklearn
 
-nltk
+* nltk
 
-wordcloud
+* wordcloud
 
  Data Preprocessing Steps
 
- Removed duplicates
- Removed missing values
- Text cleaned using:
+1) Removed duplicates
+2) Removed missing values
+3) Text cleaned using:
 
-Lowercasing
+* Lowercasing
 
-Tokenization
+* Tokenization
 
-Removing stopwords
+* Removing stopwords
 
-Removing punctuation
+* Removing punctuation
 
-Stemming (PorterStemmer)
+* Stemming (PorterStemmer)
 
-Created a transformed_text column
+* Created a transformed_text column
 
-Exploratory Data Analysis (EDA)
+* Exploratory Data Analysis (EDA)
 
-Countplot of Spam vs Ham messages
+* Countplot of Spam vs Ham messages
 
-Distribution of message lengths
+Models Used
 
-WordClouds for Spam and Ham
+* Multinomial Naive Bayes
 
-Most common 30 words (Spam & Ham)
+* Logistic Regression
+
+* Random Forest Classifier
