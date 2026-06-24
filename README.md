@@ -3,7 +3,7 @@ It covers data cleaning, preprocessing, EDA, vectorization, model training, eval
 The goal of this project is to build a machine learning model that can detect whether a message is spam or not spam.
 We use the SMS Spam Collection Dataset which contains 5,572 labeled messages.
 
-This project includes:
+This project includes:-
 
 * Data loading
 
