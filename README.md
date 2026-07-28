@@ -1,7 +1,7 @@
 This project is a beginner-friendly Machine Learning model that classifies text messages as Spam or Ham (Not Spam) using simple and understandable steps.
 It covers data cleaning, preprocessing, EDA, vectorization, model training, evaluation, and prediction
 The goal of this project is to build a machine learning model that can detect whether a message is spam or not spam.
-We use the SMS Spam Collection Dataset which contains 5,572 labeled messages..
+We use the SMS Spam Collection Dataset which contains 5,572 labeled messages.
 
 This project includes:-
 
